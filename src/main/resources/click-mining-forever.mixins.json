@@ -1,13 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "net.snowtyler.clickmining.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "MultiplayerInteractionManagerMixin",
-    "SingleplayerInteractionManagerMixin"
+    "PlayerControllerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

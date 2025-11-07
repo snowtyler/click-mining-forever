@@ -18,13 +18,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.snowtyler.clickmining.ClickMiningForever"
     ],
     "beforeGameStart": [
-      "net.fabricmc.example.ExampleMod"
+      "net.snowtyler.clickmining.ClickMiningForever"
     ],
     "afterGameStart": [
-      "net.fabricmc.example.ExampleMod"
+      "net.snowtyler.clickmining.ClickMiningForever"
     ]
   },
   "mixins": [
