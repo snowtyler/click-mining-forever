@@ -19,17 +19,23 @@
   "entrypoints": {
     "main": [
       "net.fabricmc.example.ExampleMod"
+    ],
+    "beforeGameStart": [
+      "net.fabricmc.example.ExampleMod"
+    ],
+    "afterGameStart": [
+      "net.fabricmc.example.ExampleMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "click-mining-forever.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.13.3",
-    "minecraft": "1.0.0-beta.7.3"
+    "minecraft": "*",
+    "fabricloader": ">=0.15.5"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
+
