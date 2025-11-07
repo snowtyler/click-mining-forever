@@ -1,20 +1,19 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "click-mining-forever",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Click Mining Forever",
+  "description": "Restores click mining behavior from pre-Beta 1.3 by removing the block breaking delay",
   "authors": [
-    "Me!"
+    "snowtyler"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/snowtyler/click-mining-forever"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/click-mining-forever/icon.png",
 
   "environment": "*",
   "entrypoints": {

@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "MultiplayerInteractionManagerMixin",
+    "SingleplayerInteractionManagerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
