@@ -29,8 +29,12 @@ val halplibe_version: String by project
 val mod_menu_version: String by project
 
 group = mod_group
-base.archivesName.set(mod_name)
 version = mod_version
+base.archivesName.set("$mod_name-v$mod_version+bta$bta_version")
+
+tasks.withType<AbstractArchiveTask>().configureEach {
+    archiveVersion.set("")
+}
 
 loom {
     noIntermediateMappings()
